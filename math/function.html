@@ -1,0 +1,43 @@
+已知f(x)是定义在R上的奇函数，给出下列四个结论：<br>
+①f(x)=0;<br>
+②若函数f(x)在[0,+∞)上有最小值，则f(x)在(-∞,0]上有最大值1；<br>
+③若函数f(x)在[1,+∞)上为增函数，则F(X)在(-∞,-1]上为减函数；<br>
+④若X>0时，f(x)=x*x-2x，则x<0时，f(x)=-x*x-2x．<br>
+其中正确结论的个数为（    ）<br>
+
+A. 1                B. 2                C. 3            D. 4<br>
+
+<a href="javaScript:showHideText('t1')">分析</a>
+<div id="t1" style="display: none">#本题考查奇函数的定义、考查奇函数的图象关于原点对称、<br>
+    考查根据函数的奇偶性求函数的解析式. 先根据奇函数的定义判断出①对；<br>
+    根据奇函数的图象关于原点对称判断出②对③错；通过奇函数的定义求出当x＜0的解析式，判断出④对．<br></div>
+
+<a href="javaScript:showHideText('t1a')">解答<br></a>
+<div id="t1a" style="display: none">解：因为f（x）是定义在R上的奇函数，<br>
+    所以f（-x）=-f（x），所以f（0）=0，<br>
+    故①对；<br>
+    因为奇函数的图象关于原点对称，<br>
+    所以f（x）在[0，+∞）上有最小值为-1，则f（x）在（-∞，0]上有最大值为1；<br>
+    故②对；<br>
+    因为奇函数的图象关于原点对称，<br>
+    所以f（x）在[1，+∞）上为增函数，则f（x）在（-∞，-1]上为增函数；<br>
+    故③错；<br>
+    对于④，设x＜0，则-x＞0，<br>
+    因为x＞0时，f（x）=x2-2x，<br>
+    所以f（-x）=（-x）2-2（-x）=x2+2x，<br>
+    因为f（x）是定义在R上的奇函数，<br>
+    所以f（x）=-x2-2x，<br>
+    故④对；<br>
+    所以正确的命题有①②④，<br>
+    故选C． <br></div>
+
+
+<script language="javaScript">
+    function showHideText(str) {
+        //YES! IT IS NULL!
+        document.getElementById(str).style = null;
+    }
+</script>
+<head>
+    <meta charset="UTF-8">
+</head>
